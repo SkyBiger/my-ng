@@ -1,0 +1,58 @@
+html,body{width: 100%;min-width: 1200px;font: 12px/1.2 "微软雅黑";background: #f2f2f2;}
+html,body,p,input,ul,li,dl,dd,dt{margin: 0;padding: 0;}
+h1,h2{font-weight: normal;margin: 0;padding: 0;}
+ul,li{list-style: none;}
+img{vertical-align: middle;border: none;max-width: 100%;}
+a{text-decoration: none;color: inherit;}
+a:hover{color: inherit;}
+input:focus,textarea:focus { outline: none;}
+/*通用css*/
+.fl{float: left;}
+.fr{float: right;}
+.br{border-radius: 5px;}
+.pa{position: absolute;}
+.pr{position: relative;}
+.vat{vertical-align: top;}
+.vam{vertical-align: middle;}
+.vab{vertical-align: bottom;}
+.block{display: inline-block;*display: inline;*zoom: 1;}
+.dib{display: inline-block;*display: inline;*zoom: 1;}
+.db{display: block;}
+.clearfix:after{content: "";display: block;clear: both;visibility: hidden;}
+
+/*字体样式*/
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f22{font-size: 22px;}
+.f24{font-size: 24px;}
+.f28{font-size: 28px;}
+.f30{font-size: 30px;}
+.f32{font-size: 32px;}
+.f36{font-size: 36px;}
+
+.fb{font-weight: bold;}
+.fn{font-weight: normal;}
+
+.tac{text-align: center;}
+.tal{text-align: left;}
+.tar{text-align: right;}
+
+.pb40{padding-bottom: 40px;}
+.pt20{padding-top: 20px;}
+.wd100{width: 100%;}
+.wd1200{width: 1200px;margin: 0 auto;}
+
+.tdu{text-decoration: underline;}
+.tdt{text-decoration: line-through;}
+
+/*行间距设置*/
+.lh15{line-height: 1.5;}
+.lh16{line-height: 1.6;}
+.lh17{line-height: 1.7;}
+.lh18{line-height: 1.8;}
+.lh19{line-height: 1.9;}
+.lh20{line-height: 2;}
+

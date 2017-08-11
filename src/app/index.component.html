@@ -1,0 +1,7 @@
+
+<ul class="label-ul">
+	<li *ngFor = 'let demo of demos' [routerLink]="['/detail',demo.id]"> 
+		<{{demo.name}}>
+	</li>
+	<router-outlet></router-outlet>
+</ul>
