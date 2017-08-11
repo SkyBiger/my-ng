@@ -1,16 +1,18 @@
 import { BrowserModule} from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule }   from '@angular/router';
+import { RouterModule,Routes }   from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { LabelDetailComponent } from './label-detail.component';
 import { IndexComponent } from './index.component';
+import { PageNotFoundComponent } from './not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LabelDetailComponent,
-    IndexComponent
+    IndexComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,10 @@ import { IndexComponent } from './index.component';
     	{
     		path:'detail/:id',
     		component:LabelDetailComponent
+    	},
+    	{
+    		path:'**',
+    		component:PageNotFoundComponent
     	}
     ])
   ],
