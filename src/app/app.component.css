@@ -23,8 +23,11 @@ nav a:hover{
 	background: #eaeaea;color: #222;
 }
 button{
-	background:#fff;
-	color:#666;
-	margin:20px 0;
+	background:#666;
+	color:#fff;border-radius: 5px;
+	margin:20px 0;padding: 10px 15px;
 	cursor:pointer
+}
+button:hover{
+	background: #999;
 }

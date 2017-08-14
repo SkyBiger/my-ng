@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { LabelDetailComponent } from './label-detail.component';
 import { IndexComponent } from './index.component';
 import { PageNotFoundComponent } from './not-found.component';
-import { NavComponent } from './app.nav'
+import { NavComponent } from './app.nav';
+import { DataService } from './data.service'
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { NavComponent } from './app.nav'
     	}
     ])
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
