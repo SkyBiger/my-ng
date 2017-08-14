@@ -6,19 +6,25 @@ import { AppComponent } from './app.component';
 import { LabelDetailComponent } from './label-detail.component';
 import { IndexComponent } from './index.component';
 import { PageNotFoundComponent } from './not-found.component';
+import { NavComponent } from './app.nav'
 
 @NgModule({
   declarations: [
     AppComponent,
     LabelDetailComponent,
     IndexComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
     	{
-    		path:'label',
+    		path:'',
+    		component:NavComponent
+    	},
+    	{
+    		path:'label/:name',
     		component:IndexComponent
     	},
     	{

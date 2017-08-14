@@ -1,15 +1,16 @@
 h1{
-	font-weight: bold;font-size: 40px;padding: 10px;
+	font-weight: bold;font-size: 40px;padding: 10px;text-align: center;
 }
 nav{
 	margin-bottom: 20px;
 }
 nav a{
-	background: #eee;display: inline-block;padding: 15px;
+	background: #eee;display: block;padding: 15px;width: 200px;text-align: center;margin:10px auto;
 	text-decoration: none;border-radius: 5px;
+	color: #666;box-shadow: 5px 5px 5px #222;
 }
 nav a:hover{
-	color:red
+	color:#000;box-shadow: 5px 5px 5px #666;
 }
 .label-ul li{
 	background: #666;border-radius: 10px;text-align: center;
@@ -20,4 +21,10 @@ nav a:hover{
 }
 .label-ul li:hover{
 	background: #eaeaea;color: #222;
+}
+button{
+	background:#fff;
+	color:#666;
+	margin:20px 0;
+	cursor:pointer
 }

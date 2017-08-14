@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 import { CssList } from './data';
 
@@ -9,7 +10,10 @@ import { CssList } from './data';
 export class IndexComponent {
   title = 'app';
   demos = CssList;
-  select = function(a){
-  	
+  constructor(
+  		private location: Location
+  ){}
+  goBack(): void {
+	    this.location.back();
   }
 }
